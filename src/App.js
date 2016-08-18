@@ -4,12 +4,21 @@ import './App.css';
 import Subscribe from './subscribe';
 
 class App extends Component {
+  constructor (props) {
+    super(props);
+
+    this.state = { email: '' };
+
+    this.onHandleChange = this.onHandleChange.bind(this);
+    this.onHandleSubmit = this.onHandleSubmit.bind(this);
+  }
+
   onHandleChange (e) {
-    console.log(arguments);
+    this.setState({ email: e.target.value });
   }
 
   onHandleSubmit (e) {
-    console.log('clicked');
+    alert(this.state.email);
   }
 
   render() {
