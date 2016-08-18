@@ -14,7 +14,7 @@
     "react-uikit-form": "^1.0.2",
     "react-uikit-grid": "^1.0.1",
     "react-uikit-overlay": "^1.0.0",
-    "ufunc": "^1.0.1"
+    "ufunc": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
