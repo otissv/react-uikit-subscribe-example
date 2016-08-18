@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from '../../../components/button';
-import Grid from '../../../components/grid';
-import Overlay from '../../../components/overlay';
-import Form from '../../../components/form/';
-import FormInput from '../../../components/form/lib/form-input';
-import { element } from '../../../base';
+import Button from 'react-uikit-button';
+import Grid from 'react-uikit-grid';
+import Overlay from 'react-uikit-overlay';
+import Form from 'react-uikit-form';
+import FormInput from 'react-uikit-/form/lib/form-input';
+import { element } from 'react-uikit-base';
 
 const Centered = element();
 
