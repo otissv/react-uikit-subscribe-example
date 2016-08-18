@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Subscribe from './components/subscribe';
+import Subscribe from './subscribe';
 
 class App extends Component {
   onHandleChange (e) {
