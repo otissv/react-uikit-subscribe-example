@@ -2,8 +2,8 @@ import React from 'react';
 import Button from 'react-uikit-button';
 import Grid from 'react-uikit-grid';
 import Overlay from 'react-uikit-overlay';
-import Form from 'react-uikit-form';
-import FormInput from 'react-uikit-/form/lib/form-input';
+import Form from '../../components/form/';
+import FormInput from '../../components/form/lib/form-input';
 import { element } from 'react-uikit-base';
 
 const Centered = element();
@@ -29,10 +29,13 @@ const Subscribe = (props) => (
       <Grid gutter='collapse'>
         <FormInput
           colSmall='3-5'
-          placeholder='Enter Your Email'
-          onChange={props.onChange}
+          wide
           icon='envelope'
-          container={{wide: true}}
+          input={{
+            placeholder: 'Enter Your Email',
+            onChange: props.onChange
+          }}
+
         />
         <Button
           colSmall='2-5'
