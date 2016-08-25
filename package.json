@@ -9,11 +9,11 @@
     "cuid": "^1.3.8",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "react-uikit-base": "^1.0.5",
-    "react-uikit-button": "^1.1.1",
-    "react-uikit-form": "^1.0.2",
-    "react-uikit-grid": "^1.0.1",
-    "react-uikit-overlay": "^1.0.0",
+    "react-uikit-base": "^2.0.0",
+    "react-uikit-button": "^2.0.0",
+    "react-uikit-form": "^2.0.0",
+    "react-uikit-grid": "^2.0.0",
+    "react-uikit-overlay": "^2.0.0",
     "ufunc": "^2.0.0"
   },
   "scripts": {
