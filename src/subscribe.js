@@ -2,8 +2,8 @@ import React from 'react';
 import Button from 'react-uikit-button';
 import Grid from 'react-uikit-grid';
 import Overlay from 'react-uikit-overlay';
-import Form from '../../components/form/';
-import FormInput from '../../components/form/lib/form-input';
+import Form from 'react-uikit-form/';
+import FormInput from 'react-uikit-form/lib/form-input';
 import { element } from 'react-uikit-base';
 
 const Centered = element();
@@ -31,12 +31,10 @@ const Subscribe = (props) => (
           colSmall='3-5'
           wide
           icon='envelope'
-          input={{
-            placeholder: 'Enter Your Email',
-            onChange: props.onChange
-          }}
-
+          placeholder='Enter Your Email'
+          onChange={props.onChange}
         />
+
         <Button
           colSmall='2-5'
           body='Sign Up'
@@ -49,8 +47,10 @@ const Subscribe = (props) => (
 
 
 Subscribe.propTypes = {
-  onChange   : React.PropTypes.func,
+  onChange  : React.PropTypes.func,
   onSubmit  : React.PropTypes.func
 };
+
+export default Subscribe;
 
 export default Subscribe;

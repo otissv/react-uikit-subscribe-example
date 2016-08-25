@@ -14,6 +14,8 @@
     "react-uikit-form": "^2.0.0",
     "react-uikit-grid": "^2.0.0",
     "react-uikit-overlay": "^2.0.0",
+    "react-uikit-icons": "^2.0.0",
+    "react-uikit-img": "^2.0.0",
     "ufunc": "^2.0.0"
   },
   "scripts": {
